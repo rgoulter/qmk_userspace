@@ -2,7 +2,7 @@ QMK [External Userspace](https://docs.qmk.fm/newbs_external_userspace) for rgoul
 
 # Overview
 
-- `users/rgoulter` :: functionality common to `rgoulter` keymaps.
+- [users/rgoulter](users/rgoulter) :: functionality common to `rgoulter` keymaps.
   - CPP defines for keymap segments.
   - Combos.
   - Leader key sequences.
@@ -11,19 +11,39 @@ QMK [External Userspace](https://docs.qmk.fm/newbs_external_userspace) for rgoul
 
   - `split_3x5_3` :: split 3x5+3. (X-1/MiniF4-36, Pico42, PyKey40 HSRGB)
 
-    - `rgoulter` :: keymap inspired by miryoku.
+    - [rgoulter](layouts/community/split_3x5_3/rgoulter) :: keymap inspired by miryoku.
 
   - `planck_mit` :: ortholinear 4x12 with a 2U spacebar in the middle. (BM40, PyKey40 Lite).
 
-    - `rgoulter` :: keymap with lower/raise/adjust layers.
+    - [rgoulter](layouts/community/planck_mit/rgoulter) :: keymap with lower/raise/adjust layers.
 
-    - `rgoulter-pinkieoutercolumn` :: keymap with lower/raise/adjust layers.
+    - [rgoulter-pinkieoutercolumn](layouts/community/planck_mit/rgoulter-pinkieoutercolumn) :: keymap with lower/raise/adjust layers.
 
   - `ortho_5x12` :: ortholinear 5x12. (X-2/Lumberjack-ARM (HSRGB)).
 
-    - `rgoulter` :: keymap with lower/raise/adjust layers.
+    - [rgoulter](layouts/community/ortho_5x12/rgoulter) :: keymap with lower/raise/adjust layers.
 
 - `keyboards/rgoulter` :: keyboard firmware definitions.
+
+  - [X-1/MiniF4-36](keyboards/rgoulter/minif4_36)
+
+    - rev2021.4
+
+    - rev2021.5 (bluepill, blackpill F401)
+
+  - [X-2/Lumberjack ARM](keyboards/rgoulter/x_2)
+
+    - rev2021.1 (bluepill, blackpill F401)
+
+    - HSRGB rev2022.1 (bluepill, blackpill F401)
+
+  - [PyKey40](keyboards/rgoulter/pykey40)
+
+    - Lite
+
+    - HSRGB
+
+  - [Pico42](keyboards/rgoulter/pico42)
 
 ## Keyboards
 
